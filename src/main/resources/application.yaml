@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo_db
+    username: onebase
+    password:
+  flyway:
+    url: jdbc:postgresql://localhost:5432/todo_db
+    user: onebase
+    password:
+    baseline-on-migrate: true
